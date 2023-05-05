@@ -19,7 +19,6 @@ int main()
        int x=7;// hides both x in outer scope and global xor_eqconst_cast
        printf("Local x in main's inner scope is %d \n",x);
    }
-
   printf("Local x in main is %d \n",x);
   printf("\n========================\n");
   useLocal();
